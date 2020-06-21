@@ -1,0 +1,135 @@
+
+*{
+    margin: 0px;
+}
+
+body {
+    background-color: #e2f3f5;
+    color: #0e153a;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 18px;
+}
+
+h4 {
+    color: rgb(189, 42, 42);
+}
+
+h1, p, h2, h4 {
+    padding: 0 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 40%;
+}
+
+nav {
+    position: sticky;
+    top: 1%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    background-color: #0e153a;
+    color:#e2f3f5 ;
+}
+
+.nav-links a {
+    padding: 10px;
+    text-decoration: none;
+    color: #e2f3f5;
+    font-size:15px ;
+}
+
+.nav-links a:hover {
+    color: #22d1ee;
+    letter-spacing: 0.75px;
+    background-color:#141d4b;
+}
+
+.logo {
+    margin-left: 30px ;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+li {
+    align-items: center;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    border: 1px solid black ;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+td {
+    height: 30px;
+}
+
+.heading {
+    display: flex;
+}
+
+.PSG {
+    width: 50%;
+    margin-left: 15px;
+    flex: 1;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+
+.user-icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+
+.login-box {
+    background: #0e153a;
+    width: 250px;
+    color:  #e2f3f5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 20px;
+    height: 450px;
+}
+
+h3 {
+    font-size: 22px;
+    
+    letter-spacing: 1px;
+}
+
+form  {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.login-box input, select, textarea{
+    border:none;
+    background-color: #141d4b;
+    color: #e2f3f5;
+    padding: 5px;
+}
+
