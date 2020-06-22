@@ -29,6 +29,8 @@ p {
 }
 
 nav {
+    position: sticky;
+    top: 1%;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -79,7 +81,6 @@ td {
     display: flex;
 }
 
-
 .PSG {
     width: 50%;
     margin-left: 15px;
@@ -90,3 +91,45 @@ ul {
     text-align: center;
     list-style: none;
 }
+
+
+.user-icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+
+.login-box {
+    background: #0e153a;
+    width: 250px;
+    color:  #e2f3f5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 20px;
+    height: 450px;
+}
+
+h3 {
+    font-size: 22px;
+    
+    letter-spacing: 1px;
+}
+
+form  {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.login-box input, select, textarea{
+    border:none;
+    background-color: #141d4b;
+    color: #e2f3f5;
+    padding: 5px;
+}
+
