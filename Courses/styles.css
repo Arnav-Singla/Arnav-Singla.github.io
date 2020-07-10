@@ -1,0 +1,42 @@
+
+
+.fas {
+    color: yellow;
+}
+
+.abcd {
+    text-decoration: line-through;
+    color: red;
+}
+
+.price {
+    float: right;
+    color: black;
+}
+
+#cart {
+    display: none;
+}
+
+.cart:hover #cart {
+    display: block;
+    position: absolute;
+    right: 0;
+    padding: 40px;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.card-img-top:hover {
+    transform: scale(1.2);
+}
+
+.img {
+    overflow: hidden;
+}
+
+.card-img-top {
+    transition: transform 0.5s ease;
+}
+
