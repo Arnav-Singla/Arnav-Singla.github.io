@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    }
+    
+    
+    .grid {
+    position: relative;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1.5fr;
+    grid-template-rows: 1fr 4fr 3fr 2fr;
+    grid-template-areas:
+    "box1 box1 box2 "
+    "box1 box1 box3 "
+    "box4 box5 box3 "
+    "box6 box6 box3 ";
+    }
+    
+    .box1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.2)), url(https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/10518839_862757623808474_8819638105841368477_n.jpg?_nc_cat=110&ccb=2&_nc_sid=cdbe9c&_nc_ohc=IH85xgfPzH8AX8LnEuK&_nc_ht=scontent-del1-1.xx&oh=9baed3deebbb2ad8afcef064dbb46c81&oe=5FE27A63);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: box1;
+    color: #222222;
+    }
+    
+    .box1 h1{
+    text-align: center;
+    top: 22%;
+    padding:1px 30px;
+    background-color: #eee4e1;
+    color: #a53030;
+    }
+    
+    .box2 {
+    grid-area: box2;
+    background-color: #eee4e1;
+    text-align: center;
+    color: #a53030;
+    }
+    
+    .box3 {
+    grid-area: box3;
+    background-image: url(https://scontent-del1-1.xx.fbcdn.net/v/t1.0-9/300494_159820337441502_2093536039_n.jpg?_nc_cat=107&ccb=2&_nc_sid=2c4854&_nc_ohc=_cNpduwN3ysAX_OF6NJ&_nc_ht=scontent-del1-1.xx&oh=15129a3e4124ab0e37b8e40bcfdee70a&oe=5FE12067);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    .box4 {
+    grid-area: box4;
+    background-color: #ffdab9;
+    color: #c04747;
+    }
+    
+    .box5 {
+    grid-area: box5;
+    background-color: #fbc4ab;
+    color: #c04747;
+    }
+    
+    .box6 {
+    grid-area: box6;
+    background-color: #f8ad9d;
+    color: #c04747;
+    }
+    
+    h1 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    padding: 0px 20px;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    }
